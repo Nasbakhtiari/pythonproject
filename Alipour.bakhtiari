@@ -1,3 +1,4 @@
+#Bakhtiari
 import math
 
 class Polygon:
@@ -7,7 +8,7 @@ def __init__(self,nbrsides):
 self.nbr_sides = nbrsides
 
  
-
+#Bakhtiari
 def whoamI(self):
 
 elif self.nbr_sides == 4:
@@ -17,25 +18,25 @@ return "Rectangle"
 else: return "Polygon"
 
  
-
+#Alipour
 def howmanysides(self):
 
 return self.nbr_sides
 
  
-
+#Alipour
 def area(self):
 
 return "No Area"
 
  
-
+#Alipour
 def perimeter(self):
 
 return "No Perimeter"
 
  
-
+#Bakhtiari
  class rectangle(Polygon):
 def __init__(self,breadth,length):
 Polygon.__init__(self, 4)
@@ -43,10 +44,12 @@ self.breadth = breadth
  
 self.length = length
 
+#Alipour
 def area(self):
 
 return self.length * self.breadth
 
+#Alipour
 def perimeter(self):
 
 return 2 * (self.length + self.breadth)
